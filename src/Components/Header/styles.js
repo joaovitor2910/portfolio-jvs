@@ -7,6 +7,11 @@ export const Container = styled.nav`
   width: 100%;
   z-index: 100;
   padding: 1.5rem;
+
+  @media (max-width: 480px) {
+    padding: 2rem 1rem;
+
+  }
 `
 
 export const Menu = styled.ul`
@@ -14,26 +19,36 @@ export const Menu = styled.ul`
   justify-content: center;
   gap: 3rem;
 
+  
+`
+
+export const Li = styled.li`
+  cursor: pointer;
+  position: relative;
+
   a {
+    text-decoration: none;
     color: var(--claro);
     font-weight: 500;
-    position: relative;
     padding: 0.5rem 0;
     cursor: pointer;
   }
-  a::after {
+
+  &::after {
     content: '';
-    height: 2px;
-    width: 0;
+    height: 3px;
+    width: ${({ $isActive }) => ($isActive ? '100%' : 0)};
+    background: linear-gradient(90deg, var(--secundaria), var(--secundaria));
     position: absolute;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(90deg, var(--primaria), var(--secundaria));
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
     transition: width 0.5s ease-in-out;
   }
-  a:hover::after {
+
+  &:hover::after {
     width: 100%;
   }
-`
 
-export const Li = styled.li``
+  
+`

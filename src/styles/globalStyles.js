@@ -17,11 +17,18 @@ export default createGlobalStyle`
     }
 
     :root {
-        --primaria: #4f46e5;
-        --secundaria: #7c3aed;
-        --escuro: #0f172a;
-        --maisEscuro: #0a0f1c;
+        --primaria: #0f172a;
+        --secundaria: #38bdf8;
+        --escuro: #020617;
+        --maisEscuro: #0a0e1a;
         --claro: #e2e8f0;
-        --vidro: rgba(255, 255, 255, 0.1);
+        --vidro: rgba(255, 255, 255, 0.05);
     }
 `
+
+// --primaria: #4f46e5;
+//         --secundaria: #7c3aed;
+//         --escuro: #0f172a;
+//         --maisEscuro: #0a0f1c;
+//         --claro: #e2e8f0;
+//         --vidro: rgba(255, 255, 255, 0.1);
