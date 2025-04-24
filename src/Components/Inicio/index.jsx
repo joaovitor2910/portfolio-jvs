@@ -1,13 +1,7 @@
-import {
-  Container,
-  ContainerSobre,
-  Particulas,
-  Sobre
-} from "./styles";
+import { Container, ContainerSobre, Particulas, Sobre } from "./styles";
 import Foto from "../../assets/profile-portfolio.jpg";
 
 function Inicio() {
-  
   return (
     <>
       <Particulas></Particulas>
@@ -21,11 +15,15 @@ function Inicio() {
         <h2>Sobre Mim</h2>
         <ContainerSobre>
           <p>
-            Olá! Sou um desenvolvedor em transição de carreira, vindo da área de
-            mecânica industrial, onde desenvolvi um olhar atento aos detalhes,
-            comunicação e resolução de problemas. Hoje, aplico essas mesmas
-            qualidades no universo da programação, tendo me dedicado
-            especialmente ao desenvolvimento de interfaces, transformando ideias em interfaces funcionais e intuitivas.
+            Muito prazer! Meu nome é João Vitor e sou um desenvolvedor web em
+            transição de carreira. Antes de entrar para o mundo da tecnologia,
+            atuei na área de mecânica industrial, onde aprendi na prática o
+            valor de ser detalhista, resolver problemas sob pressão e trabalhar
+            bem em equipe. Hoje, trago toda essa bagagem para a programação.
+            Minha principal paixão está no front-end, criando interfaces que vão
+            além da estética: que sejam intuitivas, acessíveis e agradáveis de
+            usar. Estou em constante evolução, buscando aprender mais a cada
+            projeto.
           </p>
         </ContainerSobre>
       </Sobre>
@@ -33,6 +31,4 @@ function Inicio() {
   );
 }
 
-
 export default Inicio;
-
