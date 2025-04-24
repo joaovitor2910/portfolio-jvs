@@ -8,7 +8,7 @@ Vite – Ferramenta de build rápida para projetos front-end.
 
 JavaScript – Linguagem principal utilizada no desenvolvimento.
 
-Tailwind CSS – Framework CSS utilitário para estilização rápida e responsiva.
+Styled-Components - biblioteca que permite escrever estilos CSS diretamente dentro do JavaScript, criando componentes de estilo reutilizáveis e isolados para suas aplicações React.
 
 Vercel – Plataforma de hospedagem para aplicações front-end.
 
@@ -38,9 +38,7 @@ Design Responsivo: Compatível com dispositivos móveis, tablets e desktops.
 
 Animações Suaves: Transições e efeitos visuais para melhor experiência do usuário.
 
-Seção de Projetos: Exibição de projetos com links para repositórios ou demonstrações.
-
-Contato Direto: Formulário ou links para redes sociais e e-mail.
+Seção de Projetos: Exibição de projetos com links para demonstrações.
 
 📬 Contato
 Se você deseja entrar em contato, fique à vontade para me enviar uma mensagem:
