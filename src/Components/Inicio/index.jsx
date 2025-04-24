@@ -6,7 +6,7 @@ function Inicio() {
     <>
       <Particulas></Particulas>
       <Container id="inicio">
-        <img src={Foto} alt="foto-joao-vitor" />
+        <img src={Foto} alt="image-profile" />
         <h1>João Vitor dos Santos Siqueira</h1>
         <p>Desenvolvedor Front End</p>
       </Container>
