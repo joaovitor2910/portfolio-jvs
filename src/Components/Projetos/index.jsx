@@ -1,7 +1,8 @@
 import { Container, Card, ContainerProjects, Text } from "./styles";
 import Project1 from "../../assets/projeto1.png";
-import Project2 from "../../assets/projeto2.png";
-import Project3 from "../../assets/projeto3.png";
+import Project2 from "../../assets/weather-picture.png";
+import Project3 from "../../assets/projeto2.png";
+import Project4 from "../../assets/projeto3.png";
 
 function Projetos() {
   return (
@@ -28,10 +29,24 @@ function Projetos() {
             </Text>
           </a>
         </Card>
+         <Card>
+          <a href="http://previsao-do-tempo-eta.vercel.app" target="_blank" rel="noopener noreferrer">
+            <img src={Project2} alt="" />
+            <Text>
+              <h3>Previsão Do Tempo</h3>
+              <p>
+                Weather JVS é uma aplicação web de previsão do tempo, com o objetivo de praticar e demonstrar habilidades em consumo de APIs, manipulação de dados e desenvolvimento de interfaces intuitivas. A aplicação permite ao usuário buscar por qualquer cidade e visualizar informações meteorológicas atualizadas.
+                <br />
+                <br />
+                💻 Tecnologias: React, JavaScript, Node e Axios
+              </p>
+            </Text>
+          </a>
+        </Card>
 
         <Card>
           <a href="http://projeto-animado-carros-ftgp.vercel.app" target="_blank" rel="noopener noreferrer">
-            <img src={Project2} alt="" />
+            <img src={Project3} alt="" />
             <Text>
               <h3>Loja de Carros Esportivos</h3>
               <p>
@@ -49,7 +64,7 @@ function Projetos() {
 
         <Card>
           <a href="http://cafeteria-jvs.vercel.app" target="_blank" rel="noopener noreferrer">
-            <img src={Project3} alt="" />
+            <img src={Project4} alt="" />
             <Text>
               <h3>Coffee JVS</h3>
               <p>
