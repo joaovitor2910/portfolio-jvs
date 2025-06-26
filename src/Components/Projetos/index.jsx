@@ -3,6 +3,7 @@ import Project1 from "../../assets/projeto1.png";
 import Project2 from "../../assets/weather-picture.png";
 import Project3 from "../../assets/projeto2.png";
 import Project4 from "../../assets/projeto3.png";
+import StoreProject from '../../assets/jvstore-project.png'
 
 function Projetos() {
   return (
@@ -29,6 +30,22 @@ function Projetos() {
             </Text>
           </a>
         </Card>
+
+        <Card>
+          <a href="https://jvs-ecommerce.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <img src={StoreProject} alt="" />
+            <Text>
+              <h3>JVStore</h3>
+              <p>
+                Aplicação web de e-commerce desenvolvida com React e Tailwind CSS, focada em responsividade e boa experiência do usuário. O projeto inclui um layout moderno, carrossel de produtos, filtragem por categorias e navegação otimizada. Trabalhei conceitos de design responsivo, usabilidade e performance, com atenção à organização de código e boas práticas de desenvolvimento front-end.
+                <br />
+                <br />
+                💻 Tecnologias: React, JavaScript, Tailwind CSS e Axios
+              </p>
+            </Text>
+          </a>
+        </Card>
+
          <Card>
           <a href="http://previsao-do-tempo-eta.vercel.app" target="_blank" rel="noopener noreferrer">
             <img src={Project2} alt="" />
