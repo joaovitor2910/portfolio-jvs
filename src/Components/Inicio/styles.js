@@ -59,7 +59,7 @@ export const Sobre = styled.section`
 `
 export const ContainerSobre = styled.div`
   padding: 2rem;
-  max-width: 700px;
+  max-width: 900px;
   margin: 0 auto; //centralizar
   border-radius: 16px;
   border: 1px solid var(--vidro);
@@ -67,8 +67,7 @@ export const ContainerSobre = styled.div`
   background: rgba(255, 255, 255, 0.05);
 
   p {
-    text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   @media(max-width: 480px) {
     p {

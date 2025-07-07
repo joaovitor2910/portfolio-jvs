@@ -15,7 +15,14 @@ function Inicio() {
         <h2>Sobre Mim</h2>
         <ContainerSobre>
           <p>
-           Muito prazer! Meu nome é João Vitor e sou um desenvolvedor Full Stack em transição de carreira. Antes de mergulhar no mundo da tecnologia, atuei na área de mecânica industrial, onde aprendi na prática a importância de ser detalhista, resolver problemas sob pressão e trabalhar de forma colaborativa. Hoje, levo toda essa experiência para o desenvolvimento de software, atuando tanto no front-end quanto no back-end. Gosto de criar interfaces que sejam intuitivas, acessíveis e visualmente agradáveis, além de construir arquiteturas de back-end eficientes, seguras e escaláveis. Estou sempre em busca de novos aprendizados e desafios que me façam evoluir como profissional e entregar soluções de qualidade.
+            Profissional em transição de carreira para a área de programação, com experiência em Mecânica 
+              Industrial. Desenvolvi habilidades transferíveis como raciocínio lógico, análise de processos, resolução de problemas e trabalho em equipe, que agregam valor ao meu desempenho como desenvolvedor.
+              <br />
+              Atuo como Desenvolvedor Front-End, com experiência prática em projetos utilizando HTML, CSS, 
+              JavaScript, React e versionamento com Git/GitHub. Capaz de transformar wireframes e protótipos em soluções web funcionais e acessíveis.
+              <br />
+              Busco oportunidades para atuar em equipes colaborativas, onde possa contribuir com meu conhecimento 
+              técnico, visão prática e perfil proativo, ao mesmo tempo em que continuo evoluindo como profissional de tecnologia
           </p>
         </ContainerSobre>
       </Sobre>

@@ -4,6 +4,7 @@ import Project2 from "../../assets/weather-picture.png";
 import Project3 from "../../assets/projeto2.png";
 import Project4 from "../../assets/projeto3.png";
 import StoreProject from '../../assets/jvstore-project.png'
+import YoutubeProject from '../../assets/youtube-clone.png'
 
 function Projetos() {
   return (
@@ -95,6 +96,21 @@ function Projetos() {
                 💻 Tecnologias: HTML, CSS, JavaScript, Responsividade (Media
                 Query)
               </p>
+            </Text>
+          </a>
+        </Card>
+
+        <Card>
+          <a href="https://jvs-ecommerce.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <img src={YoutubeProject} alt="" />
+            <Text>
+              <h3>Youtube Clone - JVS</h3>
+              <p>
+                Projeto desenvolvido como parte dos meus estudos em TypeScript, APIs REST e integração entre Frontend e Backend. O YouTube Clone conta com consumo de dados via Axios, interface inspirada na plataforma original e armazenamento das informações em banco de dados relacional MySQL/MariaDB. A proposta é simular funcionalidades básicas da plataforma, como exibição e navegação entre vídeos, enquanto pratico boas práticas com TypeScript, organização de código e modelagem de dados no backend.
+                <br />
+                <br />
+                💻 Tecnologias: TypeScript, React, Axios, API REST
+                </p>
             </Text>
           </a>
         </Card>
